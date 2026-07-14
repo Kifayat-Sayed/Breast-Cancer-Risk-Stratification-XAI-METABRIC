@@ -1,0 +1,34 @@
+Breast-Cancer-Risk-Stratification-XAI-METABRIC/
+
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
+│
+├── notebooks/
+│   ├── Breast_Cancer_XAI.ipynb
+│   └── README.md
+│
+├── src/
+│   └── README.md
+│
+├── results/
+│   ├── figures/
+│   ├── tables/
+│   └── README.md
+│
+├── reports/
+│   ├── synopsis.pdf
+│   └── dissertation.pdf
+│
+├── references/
+│   └── papers.md
+│
+└── images/
+    └── workflow.png
