@@ -4,7 +4,7 @@ This folder contains the complete implementation of the project.
 
 Main notebook:
 
-Breast_Cancer_XAI.ipynb
+"METABRIC_final_project_notebook_.ipynb" /  "metabric_final_project_notebook_.py" 
 
 Workflow includes:
 
