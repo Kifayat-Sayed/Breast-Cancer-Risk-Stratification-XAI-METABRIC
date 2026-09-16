@@ -1,0 +1,15 @@
+{
+    "model_file": "metabric_60_month_mortality_random_forest.joblib",
+    "metadata_file": "deployment_metadata.json",
+    "feature_schema": "deployment_feature_schema.csv",
+    "threshold_file": "deployment_threshold.csv",
+    "model_type": "Random Forest",
+    "task": "Binary classification",
+    "positive_class": "Death within 60 months",
+    "training_cohort": 1917,
+    "original_cohort": 2509,
+    "predictor_count": 23,
+    "transformed_feature_count": 80,
+    "threshold": 0.33,
+    "warning": "Research prototype only. The OOF threshold has not been externally or clinically validated. The model must not be used as an autonomous diagnostic or treatment system."
+}

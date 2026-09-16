@@ -1,0 +1,5 @@
+Parameter,Value
+OOF operating threshold,0.33
+Threshold optimisation objective,F2-score
+Objective beta,2
+Clinical validation status,Not clinically validated

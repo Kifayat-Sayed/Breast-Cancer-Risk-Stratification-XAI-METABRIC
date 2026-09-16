@@ -1,0 +1,69 @@
+{
+    "project": "Explainable Artificial Intelligence for Breast Cancer Risk Stratification Using Clinicopathological and Genomic Features",
+    "dataset": "METABRIC",
+    "original_cohort": 2509,
+    "eligible_cohort": 1917,
+    "excluded_observations": 592,
+    "events_death_within_60_months": 427,
+    "non_events": 1490,
+    "event_prevalence": 0.222744,
+    "target_definition": {
+        "positive_class": "Death within 60 months",
+        "negative_class": "No death within 60 months",
+        "living_within_60_months_excluded": true,
+        "censored_within_60_months_excluded": true
+    },
+    "n_predictors": 23,
+    "n_transformed_features": 80,
+    "final_model": "Random Forest",
+    "random_forest_parameters": {
+        "n_estimators": 800,
+        "max_depth": 4,
+        "min_samples_split": 2,
+        "min_samples_leaf": 5,
+        "max_features": 0.5,
+        "class_weight": "balanced",
+        "random_state": 42
+    },
+    "threshold": {
+        "type": "pooled_out_of_fold_F2_operating_threshold",
+        "value": 0.33,
+        "clinical_validation_status": "Not clinically validated"
+    },
+    "performance_outer_cv": {
+        "f2_mean": 0.6399,
+        "f2_sd": 0.0282,
+        "roc_auc_mean": 0.76,
+        "roc_auc_sd": 0.0362,
+        "pr_auc_mean": 0.4846,
+        "pr_auc_sd": 0.0694,
+        "brier_mean": 0.1873,
+        "brier_sd": 0.0096,
+        "recall_mean": 0.855,
+        "recall_sd": 0.0451,
+        "precision_mean": 0.3197,
+        "precision_sd": 0.0187
+    },
+    "performance_pooled_oof": {
+        "threshold": 0.33,
+        "f2": 0.649,
+        "roc_auc": 0.7575,
+        "pr_auc": 0.4666,
+        "brier": 0.1873,
+        "recall": 0.8548,
+        "precision": 0.3306,
+        "specificity": 0.504,
+        "npv": 0.9237,
+        "f1": 0.4768,
+        "balanced_accuracy": 0.6794,
+        "mcc": 0.3021
+    },
+    "cross_validation": {
+        "outer_folds": 5,
+        "inner_folds": 3,
+        "random_state": 42
+    },
+    "created_at": "2026-09-16T18:39:20.533539",
+    "python_version": "3.13.15",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39"
+}

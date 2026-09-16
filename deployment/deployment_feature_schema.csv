@@ -1,0 +1,24 @@
+Feature_Order,Feature,Type
+1,Age at Diagnosis,Numerical
+2,Neoplasm Histologic Grade,Numerical
+3,Lymph nodes examined positive,Numerical
+4,Mutation Count,Numerical
+5,Nottingham prognostic index,Numerical
+6,TMB (nonsynonymous),Numerical
+7,Tumor Size,Numerical
+8,Tumor Stage,Numerical
+9,Type of Breast Surgery,Categorical
+10,Cancer Type Detailed,Categorical
+11,Cellularity,Categorical
+12,Chemotherapy,Categorical
+13,Pam50 + Claudin-low subtype,Categorical
+14,ER Status,Categorical
+15,HER2 Status,Categorical
+16,Tumor Other Histologic Subtype,Categorical
+17,Hormone Therapy,Categorical
+18,Inferred Menopausal State,Categorical
+19,Integrative Cluster,Categorical
+20,Primary Tumor Laterality,Categorical
+21,PR Status,Categorical
+22,Radio Therapy,Categorical
+23,3-Gene classifier subtype,Categorical
